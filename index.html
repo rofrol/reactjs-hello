@@ -11,15 +11,15 @@
       document.getElementById('hello')
     );
 
-    var APP = React.createClass({
-      render: function() {
+    class APP extends React.Component {
+      render() {
         return (
           <div>
             <h1>{this.props.txt}</h1>
           </div>
         )
       }
-    });
+    }
 
     React.render(
       <APP txt="some text" />,
