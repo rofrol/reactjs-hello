@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"
+  </head>
+    <script src="node_modules/babel-core/browser.js"></script>
+    <script src="node_modules/react/dist/react-with-addons.js" charset="utf-8"></script>
+    <script type="text/babel">
+    class Test {
+      test() {
+        return "test";
+      }
+    }
+
+    var test = new Test;
+    test.test(); // "test"
+
+    React.render(
+      <h1>Hello, world!</h1>,
+      document.body
+    );
+    </script>
+
+  <body>
+
+  </body>
+</html>
